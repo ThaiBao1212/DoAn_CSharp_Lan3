@@ -71,7 +71,9 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\QuanLyDanhMuc_DAO.cs" />
     <Compile Include="DAO\QuanLyNhanVien_DAO.cs" />
+    <Compile Include="DAO\QuanLySanPham_DAO.cs" />
     <Compile Include="Database\Database.cs" />
     <Compile Include="DTO\QuanLyNhanVien_DTO.cs" />
     <Compile Include="FormMainMenu.cs">
