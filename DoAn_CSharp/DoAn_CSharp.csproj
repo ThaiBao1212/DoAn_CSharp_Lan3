@@ -78,6 +78,9 @@
     <Compile Include="DAO\QuanLyNhapHang_DAO.cs" />
     <Compile Include="DAO\QuanLySanPham_DAO.cs" />
     <Compile Include="Database\Database.cs" />
+    <Compile Include="DTO\QuanLyDanhMuc_DTO.cs" />
+    <Compile Include="DTO\QuanLyKhachHang_DTO.cs" />
+    <Compile Include="DTO\QuanLyNhaCungCap_DTO.cs" />
     <Compile Include="DTO\QuanLyNhanVien_DTO.cs" />
     <Compile Include="FormMainMenu.cs">
       <SubType>Form</SubType>
@@ -208,6 +211,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\5072616.jpg" />
+    <Content Include="Database\QuanLyBanGiay.sql" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
