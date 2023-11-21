@@ -75,6 +75,7 @@
     <Compile Include="DAO\QuanLyHoaDon_DAO.cs" />
     <Compile Include="DAO\QuanLyKhachHang_DAO.cs" />
     <Compile Include="DAO\QuanLyNhanVien_DAO.cs" />
+    <Compile Include="DAO\QuanLyNhapHang_DAO.cs" />
     <Compile Include="DAO\QuanLySanPham_DAO.cs" />
     <Compile Include="Database\Database.cs" />
     <Compile Include="DTO\QuanLyNhanVien_DTO.cs" />
@@ -96,10 +97,10 @@
     <Compile Include="Forms\FormBanHang.Designer.cs">
       <DependentUpon>FormBanHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormLogin.cs">
+    <Compile Include="Database\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormLogin.Designer.cs">
+    <Compile Include="Database\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormNinhThuan.cs">
@@ -166,7 +167,7 @@
     <EmbeddedResource Include="Forms\FormBanHang.resx">
       <DependentUpon>FormBanHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormLogin.resx">
+    <EmbeddedResource Include="Database\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormNinhThuan.resx">
