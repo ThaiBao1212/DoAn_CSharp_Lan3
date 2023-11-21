@@ -85,29 +85,17 @@
     <Compile Include="FormMainMenu.Designer.cs">
       <DependentUpon>FormMainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormBacLieu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FormBacLieu.Designer.cs">
-      <DependentUpon>FormBacLieu.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\FormBanHang.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormBanHang.Designer.cs">
       <DependentUpon>FormBanHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Database\FormLogin.cs">
+    <Compile Include="Forms\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Database\FormLogin.Designer.cs">
+    <Compile Include="Forms\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\FormNinhThuan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FormNinhThuan.Designer.cs">
-      <DependentUpon>FormNinhThuan.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormQuanLyDanhMuc.cs">
       <SubType>Form</SubType>
@@ -167,11 +155,8 @@
     <EmbeddedResource Include="Forms\FormBanHang.resx">
       <DependentUpon>FormBanHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Database\FormLogin.resx">
+    <EmbeddedResource Include="Forms\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormNinhThuan.resx">
-      <DependentUpon>FormNinhThuan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormQuanLyDanhMuc.resx">
       <DependentUpon>FormQuanLyDanhMuc.cs</DependentUpon>
